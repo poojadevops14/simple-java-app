@@ -40,5 +40,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+        <id>nexus-test-releases</id>
+        <url>http://54.226.25.245:8081/repository/maven-jenkins-intergration/</url>
+    </repository>
+</distributionManagement>
+
 </project>
 
